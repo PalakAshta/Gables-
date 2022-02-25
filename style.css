@@ -1,0 +1,259 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Style+Script&display=swap");
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  display: flex;
+  position: sticky;
+  background-color: rgba(56, 56, 56);
+}
+.nav-list {
+  width: 50%;
+}
+.logo {
+  height: 80px;
+  position: sticky;
+}
+
+.dropdown {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(56, 56, 56);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+.dropdownlist {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+.dropdown a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 30px;
+  color: grey;
+  display: block;
+  transition: 0.3s;
+  font-family: "Style Script", cursive;
+}
+.dropdown a:hover,
+.dropdown a:focus {
+  color: whitesmoke;
+}
+.hamburger {
+  padding-left: 600px;
+  color: white;
+  padding-top: 20px;
+  cursor: pointer;
+  width: 50px;
+}
+.low {
+  background-image: url("image4.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  opacity: 100%;
+  height: 100vh;
+}
+table th {
+  border: 1px solid grey;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  font-family: "Style Script", cursive;
+
+  color: rgba(56, 56, 56);
+  font-size: 20px;
+}
+table th:hover {
+  border: 3px solid rgba(56, 56, 56);
+  cursor: pointer;
+  font-size: 40px;
+}
+
+table {
+  padding-top: 80px;
+  padding-left: 450px;
+}
+.low h1 {
+  padding-top: 250px;
+  padding-left: 650px;
+  font-family: "Style Script", cursive;
+
+  font-size: 100px;
+  color: rgba(45, 45, 45);
+}
+
+.low p {
+  padding-left: 500px;
+  font-family: "Style Script", cursive;
+
+  font-size: 20px;
+}
+.container {
+  padding-top: 14px;
+  font-family: "Style Script", cursive;
+
+  color: whitesmoke;
+  background: rgba(56, 56, 56);
+  font-size: x-large;
+  height: 100vh;
+}
+.container h1 {
+  padding-left: 580px;
+  padding-top: 200px;
+  font-size: 80px;
+}
+.container p {
+  padding-left: 600px;
+  font-size: 30px;
+}
+.fourthsec {
+  display: flex;
+}
+.fourthsec left {
+  width: 50%;
+}
+.left img {
+  border-radius: 25px;
+  padding: 15px;
+  width: 800px;
+}
+.left img:hover {
+}
+.right {
+  font-family: "Style Script", cursive;
+
+  padding-top: 150px;
+  font-size: 30px;
+}
+.fifthsec {
+  height: 80px;
+  background-color: rgba(56, 56, 56);
+  height: 90vh;
+  font-family: "Style Script", cursive;
+}
+.fifthsec {
+  height: 200vh;
+}
+.hey {
+  color: whitesmoke;
+  font-size: 50px;
+  padding-left: 10px;
+  padding-top: 500px;
+  padding-bottom: 50px;
+}
+.btn-group {
+  padding-left: 10px;
+}
+
+.btn-group button {
+  background-color: whitesmoke; /* Green background */
+  border: 1px solid grey; /* Green border */
+  color: rgba(153, 102, 0); /* White text */
+  /* padding: 150px 80px;  Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-family: "Style Script", cursive;
+  height: 400px;
+  width: 300px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  font-display: column;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: rgba(56, 56, 56);
+}
+.btn-group h1 {
+  font-size: 40px;
+}
+.btn-group p {
+  font-size: 20px;
+}
+.agent {
+  display: flex;
+  height: 100vh;
+}
+.write {
+  width: 50%;
+  padding-left: 30px;
+  padding-top: 150px;
+  font-family: "Style Script", cursive;
+  color: rgba(56, 56, 56);
+  font-size: 30px;
+}
+.full {
+  padding-left: 200px;
+  padding-top: 200px;
+}
+#name {
+  padding: 16px 20px;
+  border: 3px solid grey;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-size: 25px;
+  font-family: "Style Script", cursive;
+}
+.fa.fa-facebook-square {
+  padding-left: 600px;
+  cursor: pointer;
+  font-size: 36px;
+}
+
+.fa.fa-linkedin-square,
+.fa.fa-twitter-square,
+.fa.fa-whatsapp,
+.fa.fa-youtube-play,
+.fa.fa-instagram {
+  cursor: pointer;
+}
+/*.fa.fa-facebook-square:hover,
+.fa.fa-linkedin-square:hover,
+.fa.fa-twitter-square:hover,
+.fa.fa-whatsapp:hover,
+.fa.fa-youtube-play:hover,
+.fa.fa-instagram:hover {
+  cursor: pointer;
+  font-size: 48px;
+}*/
+.last {
+  height: 10vh;
+}
+
+.btn {
+  font-family: "Style Script", cursive;
+  background-color: #f1f1f1;
+  border: 3px solid grey;
+  border-radius: 4px;
+  font-size: 20px;
+  padding-right: 5px;
+  color: grey;
+}
+.logoimg {
+  height: 60px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
